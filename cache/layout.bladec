@@ -16,7 +16,7 @@
  <span class="header__pre-title">We Make You Feel Comfortable</span>
  <div class="header__left">
  <button id="menuBtn" class="header__menu-btn"></button>
- <a href="./index.html" class="logo logo--header">
+ <a href="./index.php" class="logo logo--header">
  <div class="logo__img logo__img--header"></div>
  <div class="logo__name logo__name--header"></div>
  </a>
@@ -26,8 +26,8 @@
  <ul class="nav__ul">
  <li class="nav__li"><a href="about.php" class="nav__a">About Us</a></li>
  <li class="nav__li"><a href="rooms.php" class="nav__a">Rooms</a></li>
- <li class="nav__li"><a href="html/offers.html" class="nav__a">Offers</a></li>
- <li class="nav__li"><a href="html/contact.html" class="nav__a">Contact</a></li>
+ <li class="nav__li"><a href="offers.php" class="nav__a">Offers</a></li>
+ <li class="nav__li"><a href="contact.php" class="nav__a">Contact</a></li>
  </ul>
  </nav>
  </div>
@@ -41,7 +41,7 @@
  <?php echo $this->yieldContent('content'); ?>
  </main>
  <footer class="footer">
- <a href="./index.html" class="logo logo--footer">
+ <a href="./index.php" class="logo logo--footer">
  <div class="logo__img logo__img--footer"></div>
  <div class="logo__name logo__name--footer"></div>
  </a>

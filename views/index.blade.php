@@ -5,8 +5,8 @@
   <div class="wrapper-desktop">
     <h2 class="h2 home-banner__subtitle">The ultimate luxury experience</h2>
     <h1 class="h1 home-banner__title">The perfect base for you</h1>
-    <a href="html/rooms.html" class="button home-banner__button">Take a tour</a>
-    <a href="html/about.html" class="button button--outline home-banner__button home-banner__button--outline">Learn
+    <a href="rooms.php" class="button home-banner__button">Take a tour</a>
+    <a href="about.php" class="button button--outline home-banner__button home-banner__button--outline">Learn
       more</a>
   </div>
 </div>
