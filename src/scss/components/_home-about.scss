@@ -1,0 +1,63 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.home-about {
+  @include mixins.desktop() {
+    @include mixins.grid(2, 1fr, 10px);
+  }
+
+  @include mixins.desktop(1600px) {
+    gap: 75px;
+  }
+
+  &__top {
+    background-color: variables.$bg-light;
+
+    padding-top: 38px;
+    padding-bottom: 38px;
+
+    @include mixins.desktop() {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__bottom {
+    @include mixins.desktop() {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__button {
+    margin-bottom: 137px;
+  }
+
+  &__wrapper {
+    text-align: center;
+  }
+
+
+  &__first-image {
+    margin-top: -115px;
+  }
+
+  &__bg-image {
+    background-image: url('/svg/people-bg.svg');
+  }
+
+  &__card--team {
+    margin-bottom: 45px;
+  }
+
+  &__card-icon {
+    &--people {
+      background-image: url('/svg/people.svg');
+    }
+
+    &--calendar {
+      background-image: url('/svg/luxury-calendar.svg');
+    }
+  }
+
+}
