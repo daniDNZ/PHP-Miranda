@@ -37,7 +37,9 @@
       </div>
     </div>
   </header>
-  @yield('content')
+  <main>
+    @yield('content')
+  </main>
   <footer class="footer">
     <a href="./index.html" class="logo logo--footer">
       <div class="logo__img logo__img--footer"></div>
